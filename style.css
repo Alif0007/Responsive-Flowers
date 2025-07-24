@@ -1,6 +1,13 @@
 .bg-1{
     background-image: url(assets/deal-ana.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 500px;
+    height: 400px;
+
+   
        
 
 }
@@ -8,13 +15,69 @@
 
 .bg-2{
     background-image: url(assets/deal-bloom.png);
-    background-repeat: no-repeat;
-       
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 500px;
+    height: 400px;
+              
 }
 
 .bg-3{
-    background-image: url(assets/deal-zabo.png);
-    background-repeat: no-repeat;
-    height: auto;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
+    width: 500px;
+    height: 400px;
+       
+
+}
+
+.bg-4{
+    background-image: url(assets/news-letter-bg.png);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 500px;
+}
+
+
+
+.subscribe_form {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: #ffffff;
+	margin-top: 30px;
+}
+
+.subscribe_form input {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	width: 700px;
+	height: 100%;
+	background: transparent;
+	border: transparent;
+	padding-left: 20px;
+}
+
+.subscribe_form button {
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #E95A08;
+	color: #ffffff;
+	border: transparent;
+	font-size: 20px;
+	transition: .3s;
+}
+
+.subscribe_form button:hover {
+	background: #d39957;
 }
