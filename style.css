@@ -1,51 +1,24 @@
 .bg-1{
-    background-image: url(assets/deal-ana.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: 500px;
-    height: 400px;
-
-   
+position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
        
 
 }
 
 
-.bg-2{
-    background-image: url(assets/deal-bloom.png);
-   background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: 500px;
-    height: 400px;
-              
-}
-
-.bg-3{
-   background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: 500px;
-    height: 400px;
-       
-
-}
-
-.bg-4{
-    background-image: url(assets/news-letter-bg.png);
-     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    height: 500px;
+/* BADGE */
+.badge-style {
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 250px;
 }
 
 
-
+/* NEWSLETTER SECTION CSS */
 .subscribe_form {
 	width: 100%;
 	height: 60px;
@@ -80,4 +53,15 @@
 
 .subscribe_form button:hover {
 	background: #d39957;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue;
+  }
 }
