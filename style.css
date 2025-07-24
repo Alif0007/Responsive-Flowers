@@ -92,6 +92,7 @@ position: absolute;
 
   .plant-lover{
     gap: 50px;
+    margin-top: 50px;
   }
   .plant-lover-image, .plant-lover-text, .footer div{
     width: 100%;
