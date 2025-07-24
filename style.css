@@ -54,6 +54,12 @@ position: absolute;
 .subscribe_form button:hover {
 	background: #d39957;
 }
+.bg-4{
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
 
 
 
@@ -61,7 +67,55 @@ position: absolute;
 /* RESPONSIVE */
 
 @media only screen and (max-width: 576px) {
-  body {
-    background-color: lightblue;
+  .nav-1, .nav-2, .nav-3, .badge-style{
+    display: none;
+  }
+  .banner, .plant-lover, .latest-card, .footer{
+    flex-direction: column;
+  }
+  .banner-text{
+    order: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-text h1{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .flower-display{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   
+  }
+
+  .plant-lover{
+    gap: 50px;
+  }
+  .plant-lover-image, .plant-lover-text, .footer div{
+    width: 100%;
+  }
+  .plant-lover-text ul{
+    padding-left: 20px;
+  }
+  .plant-lover-text-title{
+    font-size: 30px;
+  }
+  .big-card-text{
+    font-size: 18px;
+  }
+
+  .subscribe_form input{
+    width: 100%;
+  }
+  main{
+   padding: 20px;
+  }
+  nav{
+    padding: 20px;
+  }
+  .footer{
+    padding-left: 20px;
   }
 }
